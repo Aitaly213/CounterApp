@@ -11,13 +11,9 @@ class CounterModel {
         count--
     }
 
-    fun isEqualTen(): Boolean {
-        return count == 10
-    }
+    fun isEqualTen() = count == 10
 
-    fun isEqualFifteen(): Boolean {
-        return count == 15
-    }
+    fun isEqualFifteen() = count == 15
 
     fun getCount() = count
 }
